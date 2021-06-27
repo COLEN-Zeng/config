@@ -1,0 +1,203 @@
+{
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggestSelection": "first",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        90,
+        110
+    ],
+    "editor.formatOnPaste": true,
+    "editor.fontLigatures": true, // 字体连字
+    "editor.fontFamily": "'Fira Code', 'Microsoft YaHei', 'monospace'",
+    "editor.fontSize": 14,
+    "[javascript]": {
+        "editor.fontLigatures": "'ss02', 'ss19'",
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    // 渲染字体
+    // "oneDarkPro.editorTheme": "One dark Pro",
+    // "oneDarkPro.bold": true,
+    // 终端
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1,
+    // "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Consolas, '微软雅黑', monospace",
+    // 提示框
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // javascript
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // "eslint.autoFixOnSave": true,
+    // "eslint.validate": [
+    //     "javascript",
+    //     "javascriptreact",
+    //     {
+    //         "language": "html",
+    //         "autoFix": true
+    //     },
+    //     {
+    //         "language": "vue",
+    //         "autoFix": true
+    //     }
+    // ],
+    // java
+    "java.configuration.checkProjectSettingsExclusions": false,
+    // php
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1566926293981,
+    // python
+    "python.jediEnabled": false,
+    "python.formatting.provider": "yapf", // 自动格式化pthon代码
+    "python.linting.flake8Enabled": false, // flake8代码格式化标准
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    // vim
+    "vim.easymotion": true, // 快速移动
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-p>",
+            ],
+            "after": [
+                "<Up>"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>",
+            ],
+            "after": [
+                "<Down>"
+            ]
+        },
+        {
+            "before": [
+                "<C-f>",
+            ],
+            "after": [
+                "<right>"
+            ]
+        },
+        {
+            "before": [
+                "<C-b>",
+            ],
+            "after": [
+                "<left>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>q"
+            ],
+            "after": [
+                ":q<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "j",
+                "j",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "C-k"
+            ],
+            "after": [
+                "k",
+                "k",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "C-h"
+            ],
+            "after": [
+                "h",
+                "h",
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "C-l"
+            ],
+            "after": [
+                "l",
+                "l",
+                "l"
+            ]
+        },
+    ],
+    // vim状态栏根据状态变色
+    // "vim.statusBarColorControl": true,
+    // "vim.statusBarColors.insert": "#653030",
+    // "vim.statusBarColors.normal": "#232221",
+    // "vim.statusBarColors.visual": "#4c2968",
+    // "workbench.colorCustomizations": {
+    //     "statusBar.background": "#4c2968",
+    //     "statusBar.noFolderBackground": "#4c2968",
+    //     "statusBar.debuggingBackground": "#4c2968"
+    // },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    // 非重要
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": true,
+        "suppressGitMissingWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // 在末尾加空行
+    "files.insertFinalNewline": true,
+    // 保存文件时删除文件末尾的空格
+    "files.trimTrailingWhitespace": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "cSpell.userWords": [
+        "colen"
+    ],
+    "git.ignoreMissingGitWarning": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "conventionalCommits.showNewVersionNotes": false,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "javascript.suggest.names": false,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
